@@ -1,0 +1,49 @@
+{
+ "properties": {
+  "displayName": "Data Protection Governance",
+  "policyType": "Custom",
+  "description": "Contains common Data Protection Governance policies",
+  "metadata": {
+   "category": "Custom",
+   "createdBy": "547ff796-d35a-49cb-85e0-541957550d36",
+   "createdOn": "2023-01-17T06:16:30.9339173Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Azure Backup should be enabled for Virtual Machines",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/013e242c-8828-4970-87b3-ab247555486d",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Long-term geo-redundant backup should be enabled for Azure SQL Databases",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/d38fc420-0735-4ef3-ac11-c806f651a570",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Audit virtual machines without disaster recovery configured",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0015ea4d-51ff-4ce3-8d8c-f3f8f0179a56",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Key vaults should have purge protection enabled",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/0b60c0b2-2dc2-4e1c-b5c9-abbed971de53",
+    "parameters": {},
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Key vaults should have soft delete enabled",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1e66c121-a66a-4b1f-9b83-0fd99bf0fc2d",
+    "parameters": {},
+    "groupNames": []
+   }
+  ]
+ },
+ "id": "/subscriptions/3cd0ee45-8df9-49e9-8cf7-6193be89b235/providers/Microsoft.Authorization/policySetDefinitions/data_protection_governance",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "data_protection_governance"
+}
